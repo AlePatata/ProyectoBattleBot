@@ -29,6 +29,11 @@ void handleButtonRequest(void) {
 
   int AdltAtrs = server.arg("AdltAtrs").toInt();
   int  DerIzq = server.arg("DerIzq").toInt();
+  int Arma = server.arg("Arma").toInt();
+
+  if (Arma) {
+    
+  }
 
   //ADELANTE DERECHA
   if (AdltAtrs == 1 && DerIzq == -1) {
